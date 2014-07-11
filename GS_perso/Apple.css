@@ -1,0 +1,384 @@
+
+#globalheader {
+    background: url("/global/nav/images/globalheader.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    display: block;
+    font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+    height: 36px;
+    margin: 18px auto;
+    position: relative;
+    text-align: left;
+    width: 980px;
+    z-index: 9998;
+}
+#globalheader #globalnav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+}
+#globalheader #globalnav:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#globalheader #globalnav li {
+    display: inline;
+}
+#globalheader #globalnav li a {
+    background: url("/global/nav/images/globalnav.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 102px;
+}
+v\:roundrect, v\:fill {
+}
+#globalheader-roundrect, #globalheader-fill {
+    display: block;
+    height: 35px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 980px;
+    z-index: 2;
+}
+#globalheader-shadow {
+    display: block;
+    height: 35px;
+    left: -2px;
+    position: absolute;
+    top: -1px;
+    width: 980px;
+    z-index: 1;
+}
+#globalheader #globalnav.tabs6-nosearch li a {
+    background-image: url("/global/nav/images/globalnav_tabs6-nosearch.png");
+    width: 163px;
+}
+#globalheader #globalnav.tabs6-nosearch li#gn-apple a {
+    width: 165px;
+}
+#globalheader #globalnav.tabs7-nosearch li a {
+    background-image: url("/global/nav/images/globalnav_tabs7-nosearch.png");
+    width: 140px;
+}
+#globalheader #globalnav.tabs7-nosearch li#gn-apple a {
+    width: 140px;
+}
+#globalheader #globalnav.nosearch li a {
+    background-image: url("/global/nav/images/globalnav_nosearch.png");
+    width: 122px;
+}
+#globalheader #globalnav.nosearch li#gn-apple a {
+    width: 126px;
+}
+#globalheader #globalnav.tabs7 li a {
+    background-image: url("/global/nav/images/globalnav_tabs7.png");
+    width: 117px;
+}
+#globalheader #globalnav.tabs7 li#gn-apple a {
+    width: 114px;
+}
+#globalheader #globalnav li a {
+    background-position: 100% 0;
+    outline: medium none;
+}
+#globalheader #globalnav li a.before {
+    background-position: 100% -36px;
+}
+#globalheader #globalnav li a:hover, #globalheader #globalnav li a:focus {
+    background-position: 100% -72px;
+}
+#globalheader #globalnav li a:active {
+    background-position: 100% -108px;
+}
+#globalheader #globalnav li#gn-apple a {
+    background-position: 0 0;
+}
+#globalheader #globalnav li#gn-apple a.before {
+    background-position: 0 -36px;
+}
+#globalheader #globalnav li#gn-apple a:hover, #globalheader #globalnav li#gn-apple a:focus {
+    background-position: 0 -72px;
+}
+#globalheader #globalnav li#gn-apple a:active {
+    background-position: 0 -108px;
+}
+#globalheader #globalnav.tabs6-nosearch li.gn-last a {
+    background-position: -165px 0;
+}
+#globalheader #globalnav.tabs6-nosearch li.gn-last a:hover, #globalheader #globalnav.tabs6-nosearch li.gn-last a:focus {
+    background-position: -165px -72px;
+}
+#globalheader #globalnav.tabs6-nosearch li.gn-last a:active {
+    background-position: -165px -108px;
+}
+#globalheader #globalnav.tabs7-nosearch li.gn-last a {
+    background-position: -140px 0;
+}
+#globalheader #globalnav.tabs7-nosearch li.gn-last a:hover, #globalheader #globalnav.tabs7-nosearch li.gn-last a:focus {
+    background-position: -140px -72px;
+}
+#globalheader #globalnav.tabs7-nosearch li.gn-last a:active {
+    background-position: -140px -108px;
+}
+#globalheader #globalnav.nosearch li.gn-last a {
+    background-position: -126px 0;
+}
+#globalheader #globalnav.nosearch li.gn-last a:hover, #globalheader #globalnav.nosearch li.gn-last a:focus {
+    background-position: -126px -72px;
+}
+#globalheader #globalnav.nosearch li.gn-last a:active {
+    background-position: -126px -108px;
+}
+#globalheader.store li#gn-store a, #globalheader.mac li#gn-mac a, #globalheader.ipod li#gn-ipod a, #globalheader.iphone li#gn-iphone a, #globalheader.ipad li#gn-ipad a, #globalheader.itunes li#gn-itunes a, #globalheader.support li#gn-support a {
+    background-position: right -144px !important;
+}
+#globalheader.gn-last #globalnav.tabs6-nosearch li.gn-last a {
+    background-position: -165px -144px !important;
+}
+#globalheader.gn-last #globalnav.tabs7-nosearch li.gn-last a {
+    background-position: -140px -144px !important;
+}
+#globalheader.gn-last #globalnav.nosearch li.gn-last a {
+    background-position: -126px -144px !important;
+}
+#globalheader #globalnav li a span {
+    background: url("/global/nav/images/globalnav_text.png") no-repeat scroll 50% 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 30px;
+    margin: 3px auto;
+    width: 100%;
+}
+#globalheader.svg #globalnav li a span {
+    background-image: url("/global/nav/images/globalnav_text.svg");
+}
+#globalheader.decelerate #globalnav li a span, #globalheader.ios3 #globalnav li a span {
+    background-image: url("/global/nav/images/globalnav_text.png");
+}
+#globalheader #globalnav li#gn-apple a span {
+    background-position: 50% 0;
+}
+#globalheader #globalnav li#gn-store a span {
+    background-position: 50% -30px;
+}
+#globalheader #globalnav li#gn-mac a span {
+    background-position: 50% -60px;
+}
+#globalheader #globalnav li#gn-ipod a span {
+    background-position: 50% -90px;
+}
+#globalheader #globalnav li#gn-iphone a span {
+    background-position: 50% -120px;
+}
+#globalheader #globalnav li#gn-ipad a span {
+    background-position: 50% -150px;
+}
+#globalheader #globalnav li#gn-itunes a span {
+    background-position: 50% -180px;
+}
+#globalheader #globalnav li#gn-support a span {
+    background-position: 50% -210px;
+}
+#globalsearch {
+    background: url("/global/nav/images/globalsearch_bg.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+    padding: 8px 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 140px;
+    z-index: 5;
+}
+#g-search {
+    display: block;
+    position: relative;
+}
+#sp-searchtext {
+    background: url("/global/nav/images/globalsearch_field.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #fff;
+    height: 16px;
+    padding: 2px 20px;
+    width: 100px;
+}
+#sp-searchtext:focus {
+    background-position: 0 100%;
+    color: #000;
+    outline: medium none;
+}
+#g-search label {
+    display: block;
+    margin-top: -2px;
+}
+#g-search .sp-label {
+    margin-bottom: -2px;
+}
+#g-search .sp-label label {
+    display: none;
+    margin: 0;
+}
+.globalheader-js #g-search {
+    background: url("/global/nav/images/globalsearch_field.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #fff;
+    height: 16px;
+    padding: 2px 20px;
+    width: 100px;
+}
+.globalheader-js #sp-searchtext {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 0;
+}
+.searchmode #g-search {
+    background-position: 0 100%;
+}
+.searchmode #sp-searchtext {
+    color: #000;
+    outline: medium none;
+}
+#globalsearch .reset {
+    background: url("/global/nav/images/globalsearch_reset.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 11px;
+    overflow: hidden;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    width: 11px;
+    z-index: 6;
+}
+#globalsearch .reset, .searchmode #globalsearch .empty .reset {
+    display: none;
+}
+.searchmode #globalsearch .reset {
+    cursor: pointer;
+    display: block;
+}
+#globalsearch .spinner {
+    background: url("/global/nav/images/globalsearch_spinner.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: none;
+    height: 11px;
+    overflow: hidden;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    width: 11px;
+    z-index: 7;
+}
+.searchmode #globalsearch .spinner {
+    display: block;
+}
+.searchmode #globalsearch .spinner.hide {
+    display: none;
+}
+#sp-results {
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 290px;
+    z-index: 9999;
+}
+#sp-results div {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.97);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+#sp-results #sp-roundrect {
+    position: absolute;
+    width: 100%;
+}
+#sp-results #sp-roundrect div {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#sp-results .sp-shadow {
+    background: none repeat scroll 0 0 #333;
+    display: none;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#sp-results h3 {
+    color: #999;
+    font-size: 12px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 8px 10px 2px;
+}
+#sp-results ul {
+    padding-bottom: 4px;
+}
+#sp-results #sp-roundrect ul {
+    margin-left: 1px;
+    margin-right: -2px;
+    width: 291px;
+}
+#sp-results ul li {
+    clear: left;
+    font-size: 11px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+#sp-results ul li a {
+    display: block;
+    outline: medium none;
+    padding: 6px 10px 6px 66px;
+    text-decoration: none;
+}
+#sp-results ul li a.suggestions {
+    padding-left: 10px;
+}
+#sp-results ul li a:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+#sp-results ul li a h4 {
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+#sp-results ul li a p {
+    color: #333;
+    font-size: 11px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+#sp-results ul li a img {
+    float: left;
+    height: 46px;
+    margin: 0 10px 0 -56px;
+    width: 46px;
+}
+#sp-results ul li a:hover, #sp-results ul li a:focus, #sp-results ul li.focus a {
+    background: -moz-linear-gradient(center top , #648ffa 0px, #0d67f7 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#sp-results ul li a:hover h4, #sp-results ul li a:focus h4, #sp-results ul li.focus a h4, #sp-results ul li a:hover p, #sp-results ul li a:focus p, #sp-results ul li.focus a p {
+    color: #fff;
+}
+#sp-results ul.noresults {
+    padding-top: 4px;
+}
+#sp-results ul.noresults li a {
+    padding-left: 10px;
+    text-align: center;
+}
+#sp-results ul.suggestions-quicklinks h3.quicklinks {
+    border-top: 1px solid #ccc;
+}

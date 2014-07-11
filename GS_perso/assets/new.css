@@ -1,0 +1,68 @@
+
+#awwwards {
+    position: absolute;
+    top: 40px;
+    z-index: 9999;
+}
+#awwwards.left {
+    left: 0;
+}
+#awwwards.right {
+    right: 0;
+}
+#awwwards a {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: block;
+    height: 105px;
+    overflow: hidden;
+    position: fixed;
+    text-indent: -8000px;
+    width: 70px;
+}
+#awwwards.left.black a {
+    background-image: url("ribbons/awwwards_honorable_black_left.png");
+}
+#awwwards.right.black a {
+    background-image: url("ribbons/awwwards_honorable_black_right.png");
+}
+#awwwards.left.white a {
+    background-image: url("ribbons/awwwards_honorable_white_left.png");
+}
+#awwwards.right.white a {
+    background-image: url("ribbons/awwwards_honorable_white_right.png");
+}
+#awwwards.left.green a {
+    background-image: url("ribbons/awwwards_honorable_green_left.png");
+}
+#awwwards.right.green a {
+    background-image: url("ribbons/awwwards_honorable_green_right.png");
+}
+@media (max-width: 767px) {
+#awwwards {
+    display: none;
+}
+}
+@media not all, not all, not all, not all {
+#awwwards a {
+    background-size: 70px 105px;
+}
+#awwwards.left.black a {
+    background-image: url("ribbons/awwwards_honorable_black_left2x.png");
+}
+#awwwards.right.black a {
+    background-image: url("ribbons/awwwards_honorable_black_right2x.png");
+}
+#awwwards.left.white a {
+    background-image: url("ribbons/awwwards_honorable_white_left2x.png");
+}
+#awwwards.right.white a {
+    background-image: url("ribbons/awwwards_honorable_white_right2x.png");
+}
+#awwwards.left.green a {
+    background-image: url("ribbons/awwwards_honorable_green_left2x.png");
+}
+#awwwards.right.green a {
+    background-image: url("ribbons/awwwards_honorable_green_right2x.png");
+}
+}
