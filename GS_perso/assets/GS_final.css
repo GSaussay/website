@@ -204,7 +204,6 @@ body {
     font-family: "Satellite","Helvetica","sans serif";
     font-size: 14px;
     line-height: 1.42857;
-            -webkit-text-stroke: 0.2px;
 }
 input, button, select, textarea {
     font-family: inherit;
@@ -4983,8 +4982,9 @@ th.visible-print, td.visible-print {
     font-family: "Satellite","Helvetica","sans serif";
 }
 @font-face {
-    font-family: "Satellite";
+    font-family: "Satellite", "Quicksand";
     src: url("Satellite.otf");
+    src: url("Quicksand-Regular.otf");
 }
 .alert {
     border: medium none;
