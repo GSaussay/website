@@ -4982,9 +4982,8 @@ th.visible-print, td.visible-print {
     font-family: "Satellite","Helvetica","sans serif";
 }
 @font-face {
-    font-family: "Satellite", "Quicksand";
+    font-family: "Satellite";
     src: url("Satellite.otf");
-    src: url("Quicksand-Regular.otf");
 }
 .alert {
     border: medium none;
