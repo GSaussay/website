@@ -4983,7 +4983,9 @@ th.visible-print, td.visible-print {
 }
 @font-face {
     font-family: "Satellite";
+    src: url("Satellite.svg") format('svg');    
     src: url("Satellite.otf");
+
 }
 .alert {
     border: medium none;
@@ -5509,15 +5511,15 @@ ul.sdt_menu li div.sdt_box a:hover{
     text-align: left;
 }
 #home #slogan {
-    left: 470px;
+    left: 500px;
     position: absolute;
-    top: 100px;
+    top: 50px;
 }
 #home h1 {
-    font-size: 80px;
+    font-size: 77px;
     margin-bottom: 40px;
 }
-#home h2 {
+#home h2 { 
     font-size: 30px;
     text-align: right;
 }
@@ -5529,7 +5531,7 @@ ul.sdt_menu li div.sdt_box a:hover{
 #email {
     font-size: 20px;
     margin: 0 auto 30px;
-    text-align: center;
+    text-align: center; 
 }
 #email .form-inline {
     display: inline-block;
@@ -5576,12 +5578,18 @@ ul.sdt_menu li div.sdt_box a:hover{
 .menu-section div {
     float: left;
     margin-left: 3.06748%;
-    width: 31.2883%;
+    width: 31.2883%;   
 }
 * html .menu-section div {
     display: inline;
     margin: 0 1% 0 0;
 }
+
+
+.menu-section{
+    overflow: visible;
+}
+
 
 #gallery {
     position: relative;
@@ -5651,7 +5659,7 @@ footer {
     position:relative;
     left: 50px;
     font-size: 12px;
-    width: 600px;
+    max-width: 600px;
 }
 .copyright{
     font-size: 12px;
@@ -5659,8 +5667,8 @@ footer {
 }
 .photo{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 200%;
+    left: 10%;
 }
 .line-separator{
     height:1.5px;

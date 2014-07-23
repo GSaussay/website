@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
+<script>
+(function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)
+</script> 
 	<meta charset="utf-8" />
+  <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">  
 	<meta name="Author" content="Guillaume Saussay" />
 	<meta name="viewport" content="width=1024" />
+  <script src="http://gsaussay.github.io/website/GS_perso/assets/google.js">
+</script>  
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
     <title>Guillaume SAUSSAY's Porfolio | The Supreme Website, redesigned.</title>
     <!-- Prevent the browser to recompile the JavaScript and CSS between each page change -->
     <!-- Keeps the current page instance alive and replaces only the body and the title in the head -->
     <!-- Page suitable for all devices -->
     <link data-turbolinks-track="true" href="http://gsaussay.github.io/website/GS_perso/assets/GS_final.css" media="all" rel="stylesheet" />
+   
+<!-- IMPORTANT LINK OF DEFAULT CSS ARE MISSING | SEEMS LIKE THE CSS
+WERE'NT WORKING BEFORE OF THAT TO BE CLEARED ASAP !! -->
+
     <script data-turbolinks-track="true" src="http://gsaussay.github.io/website/GS_perso/assets/GS_final.js"></script>
     <script src="http://gsaussay.github.io/website/GS_perso/assets/GS_final2.js"></script>
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="ntYa8AIw8RimNaNcZoArb7bxgHZD4MaHl4i3jQtLvVI=" name="csrf-token" />
+  <meta content="ntYa8AIw8RimNaNcZoArb7bxgHZD4MaHl4i3jQtLvVI=" name="csrf-token" />
+  <meta content="JuGNIXlHB52XE3zFTMTjkwuMYCB6J6bWpyrI_Y1iyCU" name="google-site-verification">
+  <script>
+    dataLayer = [{
+      tagTypeBlacklist: ['customScripts'],
+      'pageTitle': "Homepage",
+      'lang': "ALL_ALL"
+    }];
+    </script>
+    <style>
+iframe.c1 {display:none;visibility:hidden}
+    </style>
   </head>
+  <body>
+  <noscript><iframe class="c1" height="0" src="//www.googletagmanager.com/ns.html?id=GTM-N7PW69"
+    width="0"></iframe></noscript> <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N7PW69');
+    </script> 
 	
 <div id="nav">
   <a href="http://gsaussay.github.io/website/GS_perso/GS_final.html">Home</a>
@@ -30,29 +60,8 @@
 <div class="line-separator"></div>
 <div class ="divider"></div>
 
-<!--
-<ul id="sdt_menu" class="sdt_menu">
-    <li>
-        <a href="#">
-            <img src="assert/Untitled.jpg" alt=""/>
-            <span class="sdt_active"></span>
-            <span class="sdt_wrap">
-                <span class="sdt_link">Portfolio</span>
-                <span class="sdt_descr">My work</span>
-            </span>
-        </a>
-        <div class="sdt_box">
-            <a href="#">Websites</a>
-            <a href="#">Illustrations</a>
-            <a href="#">Photography</a>
-        </div>
-    </li>
-</ul>
--->
-
 <a name="home"></a>
 <section id="home">
-<!--  <img alt="Top banner" class="banner" src="assets/56a54923980c88e02d97971a48bbc3c2.jpg" />-->
   <img alt="Profile Photo" height = "200" class="photo" src="assets/NewPhoto_GuillaumeSaussay.jpg" />
   <div id="slogan">
     <h1>Guillaume SAUSSAY</h1>
@@ -60,10 +69,12 @@
     </div>
 </section>
 
+<div style="max-width:1200px; margin-left: auto; margin-right: auto">
+
 <section id="presentation">
 <div id="anounce" style = "margin-top: 300px">
-  <h2  style="margin-left: 1%"> <b class = "underline">Welcome to my Portfolio!!</b> </h2>
-  <h4 style="text-align: justify; margin-right:2%; margin-left: 2%">
+  <h2  style="margin-left: 6%"> <b class = "underline">Welcome to my Portfolio!!</b> </h2>
+  <h4 style="text-align: justify; margin-right:5%; margin-left: 7%; max-width:1000px">
     My name is Guillaume SAUSSAY.
     I am a workaholic young man always eager to learn new things and improve my knowledge and share my experience.
   <br />
@@ -76,15 +87,17 @@
 </div>
 </section>
 
-<section class="menu" data-hires="true" id="menu">
-  <div class = "menu-section" style="margin-left:1%">
- <div style="width: 195px">
-          <h2>
+<section class="menu" data-hires="true" id="menu" style="margin-left:7%">
+  <div id="maia-main" role="main">
+<div id="content" class="maia-teleport"></div>
+  <div class = "menu-section">
+ <div style="width: 170px">
+          <h3>
             <b>Online Profile</b>
-          </h2>
+          </h3>
           <p>
             <a href="Profile.html" onclick="dataLayer.push({'event': 'hp-tr-image'});"><img alt=
-            "Online Resume/CV" title="Online Profile" height = "177" src="assets/GuillaumeSaussay.jpg"></a>
+            "Online Resume/CV" title="Online Profile" height = "170" src="assets/GuillaumeSaussay.jpg"></a>
           </p>
           <p>
             French and English online versions of my Curriculum! 
@@ -95,10 +108,10 @@
             me your Curriculum!</a>
           </p>
         </div>
-<div style="width: 320px">
-          <h2>
+<div style="width: 280px">
+          <h3>
             <b>Projects</b>
-          </h2>
+          </h3>
           <p>
             <a href="Projects.html" onclick="dataLayer.push({'event': 'hp-loc-image'});"><img height="177" title="Projects" alt="Projects" src="assets/G1.jpg"></a>
           </p>
@@ -111,7 +124,7 @@
             Let's see your Projects!</a>
           </p>
         </div>
-        <div style="width: 300px">
+        <div style="width: 260px">
           <h2>
             <b>Leasures and Passions</b>
           </h2>
@@ -135,7 +148,7 @@
           </h2>
           <p>
             <a href="Contact.html" onclick="dataLayer.push({'event': 'hp-lag-image'});"><img alt=
-            "Contact Information" title="Contact Information" height="177" src="assets/contactInfo_tedxiit.jpg"></a>
+            "Contact Information" title="Contact Information" height="170" src="assets/contactInfo_tedxiit.jpg"></a>
           </p>
           <p>
             Click to obtain all my contact information... In fact, I am really looking forward to hearing from you! Do not hesitate to send me an e-mail or to call me!
@@ -146,11 +159,15 @@
             I want to contact you!</a>
   <br />
   <br />
+  <br />  
           </p>
         </div>
 </div>
+</div>
 </section>
-   <div>
+</div>
+
+<div>
     <footer>
    <b> 
     This website uses the Display Advertising Google Analytics Advertising Feature via the Google Analytics cookie.

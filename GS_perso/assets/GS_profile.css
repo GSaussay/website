@@ -5512,12 +5512,12 @@ ul.sdt_menu li div.sdt_box a:hover{
     text-align: left;
 }
 #home #slogan {
-    left: 470px;
+    left: 500px;
     position: absolute;
-    top: 100px;
+    top: 50px;
 }
 #home h1 {
-    font-size: 80px;
+    font-size: 77px;
     margin-bottom: 40px;
 }
 #home h2 {
@@ -5662,8 +5662,8 @@ footer {
 }
 .photo{
     position: absolute;
-    top: 150%;
-    left: 7%;
+    top: 200%;
+    left: 10%;
 }
 .line-separator{
     height:1.5px;

@@ -5690,3 +5690,8 @@ h2 + h4 { /* selects only those p elements immediately following a h1 */
 li{
     margin-bottom: 7px;
 }
+
+.endImage{
+    position:relative;
+    bottom:1%;
+}

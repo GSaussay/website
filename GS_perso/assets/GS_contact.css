@@ -5669,9 +5669,9 @@ background:#717171;
 }
 .divider{
     position:absolute;
-    left:35%;
+    left:475px;
     top:0%;
-    bottom:80%;
+    height:120px;
     border-left:2px solid #717171;
 }
 .underline{
