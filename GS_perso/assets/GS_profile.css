@@ -5679,7 +5679,7 @@ footer {
 .underline{
     text-decoration: underline;
 }
-h2 + h4 { /* selects only those p elements immediately following a h1 */
+h2 + h4 { /* selects only those h4 elements immediately following a h2 */
     margin: 1em 0 0 0; /* short hand for margin-top margin-right margin-bottom margin-left */
 }
 .columns{
