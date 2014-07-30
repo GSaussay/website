@@ -306,7 +306,7 @@ h3, .h3 {
 }
 h4, .h4 {
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.25;
 }
 h5, .h5 {
     font-size: 14px;
@@ -316,6 +316,7 @@ h6, .h6 {
 }
 p {
     margin: 0 0 10px;
+    line-height: 1.25;
 }
 .lead {
     font-size: 16px;
@@ -4982,7 +4983,9 @@ th.visible-print, td.visible-print {
 }
 @font-face {
     font-family: "Satellite";
+    src: url("Satellite.svg") format('svg');    
     src: url("Satellite.otf");
+
 }
 .alert {
     border: medium none;
@@ -5123,15 +5126,15 @@ ul.sdt_menu li div.sdt_box a:hover{
     text-align: left;
 }
 #home #slogan {
-    left: 450px;
+    left: 500px;
     position: absolute;
-    top: 100px;
+    top: 50px;
 }
 #home h1 {
-    font-size: 80px;
+    font-size: 77px;
     margin-bottom: 40px;
 }
-#home h2 {
+#home h2 { 
     font-size: 30px;
     text-align: right;
 }
@@ -5143,7 +5146,7 @@ ul.sdt_menu li div.sdt_box a:hover{
 #email {
     font-size: 20px;
     margin: 0 auto 30px;
-    text-align: center;
+    text-align: center; 
 }
 #email .form-inline {
     display: inline-block;
@@ -5190,12 +5193,18 @@ ul.sdt_menu li div.sdt_box a:hover{
 .menu-section div {
     float: left;
     margin-left: 3.06748%;
-    width: 31.2883%;
+    width: 31.2883%;   
 }
 * html .menu-section div {
     display: inline;
     margin: 0 1% 0 0;
 }
+
+
+.menu-section{
+    overflow: visible;
+}
+
 
 #gallery {
     position: relative;
@@ -5261,13 +5270,11 @@ ul.sdt_menu li div.sdt_box a:hover{
     padding-right: 20px;
 }
 footer {
-    bottom: 0px;
-    left: 0px;
-    margin-left: 0px;
+    clear: both;
+    position:relative;
+    left: 50px;
     font-size: 12px;
-    position: relative;
-    text-align: left;
-    width: 600px;
+    max-width: 600px;
 }
 .copyright{
     font-size: 12px;
@@ -5275,18 +5282,18 @@ footer {
 }
 .photo{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 200%;
+    left: 10%;
 }
 .line-separator{
-height:1.5px;
-background:#717171;
+    height:1.5px;
+    background:#717171;
 }
 .divider{
     position:absolute;
-    left:490px;
+    left:475px;
     top:0%;
-    height:120px;
+    height: 350px;
     border-left:2px solid #717171;
 }
 .underline{
